@@ -1,2 +1,2 @@
-# docker-nmap
-Docker build for an nmap container
+# Docker Container for Nmap
+Alpine Linux image with nmap network scanner.
