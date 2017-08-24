@@ -1,15 +1,42 @@
 # Docker Container for Nmap
-Alpine Linux image with nmap network scanner.
 
+# Summary
+Alpine Linux (https://alpinelinux.org/) image with NMAP (https://nmap.org) network scanner.
 
+# Description
+NMAP is a useful tool described by the creators as follows - 
 
+*"Nmap ("Network Mapper") is a free and open source (license) utility for network discovery and security auditing."*
+
+System administrators and security staff can use NMAP to discover hosts and ports along with other information that can be leveraged in both an offensive and defensive manner.
 
 # Examples
 
+```
+root@ubuntu:~# docker run bytesizedalex/nmap 192.168.2.25 -p 25
 
+Starting Nmap 7.40 ( https://nmap.org ) at 2017-08-24 19:14 UTC
+Nmap scan report for ubuntu.localdomain (192.168.2.25)
+Host is up (0.000090s latency).
+PORT   STATE  SERVICE
+25/tcp closed smtp
 
+```
 
+```
+root@ubuntu:~# docker run bytesizedalex/nmap 192.168.1.5
 
+Starting Nmap 7.40 ( https://nmap.org ) at 2017-08-24 19:16 UTC
+Nmap scan report for TEST.localdomain (192.168.1.5)
+Host is up (0.00051s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 3.41 seconds
+```
 
 
 # NMAP Command Line Reference
