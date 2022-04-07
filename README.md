@@ -40,7 +40,7 @@ Nmap done: 1 IP address (1 host up) scanned in 3.41 seconds
 
 
 # NMAP Command Line Reference
-(https://nmap.org/book/man-briefoptions.html)
+Please check the official nmap site for the latest reference, the below is included for convenience but may differ from the latest release - https://nmap.org/book/man-briefoptions.html
 
 ```
 Nmap 7.92SVN ( https://nmap.org )
