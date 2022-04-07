@@ -40,8 +40,10 @@ Nmap done: 1 IP address (1 host up) scanned in 3.41 seconds
 
 
 # NMAP Command Line Reference
+(https://nmap.org/book/man-briefoptions.html)
 
 ```
+Nmap 7.92SVN ( https://nmap.org )
 Usage: nmap [Scan Type(s)] [Options] {target specification}
 TARGET SPECIFICATION:
   Can pass hostnames, IP addresses, networks, etc.
@@ -138,6 +140,7 @@ OUTPUT:
   --iflist: Print host interfaces and routes (for debugging)
   --append-output: Append to rather than clobber specified output files
   --resume <filename>: Resume an aborted scan
+  --noninteractive: Disable runtime interactions via keyboard
   --stylesheet <path/URL>: XSL stylesheet to transform XML output to HTML
   --webxml: Reference stylesheet from Nmap.Org for more portable XML
   --no-stylesheet: Prevent associating of XSL stylesheet w/XML output
